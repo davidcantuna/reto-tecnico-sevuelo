@@ -1,7 +1,7 @@
-import axios from "axios";
-import { IRequest } from "../shared/request.model";
+import axios from 'axios';
+import { IRequest } from '../shared/request.model';
 
-const apiUrl = "http://localhost:8080/api";
+const apiUrl = 'http://localhost:8080/api';
 
 export const getAllRequests = () => {
   const requestUrl = `${apiUrl}/requests`;

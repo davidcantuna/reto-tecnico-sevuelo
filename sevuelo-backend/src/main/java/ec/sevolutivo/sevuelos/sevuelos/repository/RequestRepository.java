@@ -11,7 +11,5 @@ import java.util.List;
 @SuppressWarnings("unused")
 @Repository
 public interface RequestRepository extends JpaRepository<Request, Long> {
-
-    List<Request> findAllByName(String destination);
-
+    //List<Request> findAllByName(String destination);
 }
